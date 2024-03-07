@@ -1,0 +1,511 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    /* border: 1px solid red; */
+
+ }
+
+.main-container{
+    width: 100%;
+    height: auto;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.466);
+}
+
+.nav{
+    width: 100%;
+    height: 98px;
+    display: flex;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.nav-left{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-left img{
+    width: 55px;
+    margin-left: 28px;
+    margin-right: 12px;
+}
+
+.nav-left ul{
+    margin-left: 10px;
+    gap: 25px;
+    display: flex;
+    align-items: center;
+    /* justify-content:space-evenly; */
+    list-style: none;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    margin-right: 30px;
+    
+}
+
+
+.nav-right ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+.nav-right ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.find-store-li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.sign-btn{
+    margin-left: 50px;
+    width: 78px;
+    height: 32px;   
+    border-radius: 15px;
+    background-color: white;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.join-btn{
+ margin-left: 14px;
+ width: 95px;
+ height: 32px;   
+ border-radius: 15px;
+ background-color: black;
+ color: white;
+ font-weight: bolder;
+ font-size: 15px;
+ border: none;
+}
+
+
+.hero-sec{
+    width: 100%;
+    height: auto;
+}
+
+
+.first-sec{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-block: 31px;
+    padding-inline: 40px;
+    
+}
+.first-left{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #CFD84D;
+}
+
+.first-left h1{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 60px;
+    color:rgb(30, 57, 50);
+    margin-bottom: 20px;
+}
+
+
+.first-left p{
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 36px;
+    color: rgb(30, 57, 50);
+}
+
+.first-left button{
+    width: 115px;
+    height: 33px;
+    border: 1px solid black;
+    border-radius: 15px ;
+    font-weight: 650;
+    font-size: 17px;
+    color: #1E3932;
+    background-color: #CFD84D;
+    margin-top: 50px;
+}
+
+
+.first-right{
+    width: 50%;
+    height: 625px;
+    background-image: url(./137-88722.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+/* hero sec end */
+
+
+
+.hero-two{
+    width: 100%;
+    height: 400px;
+}
+
+
+.text-two{
+    width: 100;
+    height: auto;
+    display: flex;
+    padding-inline: 40px;
+    flex-direction: row-reverse;
+    
+}
+.text-two-left{
+    width: 50%;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #006241;
+}
+
+.text-two-left h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color:rgb(255, 255, 255);
+    
+}
+
+
+.text-two-left p{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 33.25px;
+    color:rgb(255, 255, 255);
+}
+
+.text-two button{
+    width: 115px;
+    height: 33px;
+    border: 1px solid white;
+    border-radius: 15px ;
+    font-weight: 650;
+    font-size: 17px;
+    color: white;
+    background-color:#006241;
+    margin-top: 50px;
+}
+
+
+.text-two-right{
+    width: 50%;
+    height: 420px;
+    background-image: url(./137-88691.jpg);
+    background-position: center;
+    background-size: contain;
+    flex-direction: row-reverse;
+    
+}
+
+/* hero two end */
+
+
+.hero-three{
+    width: 100%;
+    height: auto;
+}
+
+.text-three{
+    width: 100;
+    height: auto;
+    display: flex;
+    padding-block: 52px;
+    padding-inline: 40px;
+    padding-bottom: 31px;
+    
+}
+.text-three-left{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #B2B267;
+}
+
+.text-three-left h1{
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 60px;
+    color:rgb(30, 57, 50);
+    margin-bottom: 20px;
+    
+}
+
+
+.text-three-left p{
+    font-size: 26px;
+    font-weight: 430;
+    line-height: 36px;
+    color: rgb(30, 57, 50);
+}
+
+.text-three button{
+    width: 115px;
+    height: 33px;
+    border: 1px solid black;
+    border-radius: 15px ;
+    font-weight: 650;
+    font-size: 17px;
+    color: #1E3932;
+    background-color: #B2B267;
+    margin-top: 50px;
+}
+
+
+.text-three-right{
+    width: 50%;
+    height: 625px;
+    background-image: url(./137-88120.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+/* hero three end */
+
+
+
+.hero-four{
+    width: 100%;
+    height: auto;
+}
+
+.text-four{
+    width: 100;
+    height: auto;
+    display: flex;
+    padding-inline: 40px;
+    padding-bottom: 31px;
+    flex-direction: row-reverse;
+    
+    
+}
+.text-four-left{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #CEE8C9;
+}
+
+.text-four-left h1{
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 60px;
+    color:rgb(30, 57, 50);
+    margin-bottom: 20px;
+    
+}
+
+
+.text-four-left p{
+    font-size: 26px;
+    font-weight: 430;
+    line-height: 36px;
+    color: rgb(30, 57, 50);
+}
+
+.text-four button{
+    width: 115px;
+    height: 33px;
+    border: 1px solid black;
+    border-radius: 15px ;
+    font-weight: 650;
+    font-size: 17px;
+    color: #1E3932;
+    background-color: #CEE8C9;
+    margin-top: 50px;
+}
+
+
+.text-four-right{
+    width: 50%;
+    height: 625px;
+    background-image: url(./137-88930.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+/* hero four end */
+
+
+.hero-five{
+    width: 100%;
+    height: auto;
+}
+
+.text-five{
+    width: 100;
+    height: auto;
+    display: flex;
+    padding-inline: 40px;
+    padding-bottom: 31px;
+    
+}
+.text-five-left{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #DBE6F2;
+}
+
+.text-five-left h1{
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 60px;
+    color:rgb(30, 57, 50);
+    margin-bottom: 20px;
+    
+}
+
+
+.text-five-left p{
+    font-size: 26px;
+    font-weight: 430;
+    line-height: 36px;
+    color: rgb(30, 57, 50);
+}
+
+.text-five button{
+    width: 115px;
+    height: 33px;
+    border: 1px solid black;
+    border-radius: 15px ;
+    font-weight: 650;
+    font-size: 17px;
+    color: #1E3932;
+    background-color: #DBE6F2;
+    margin-top: 50px;
+}
+
+
+.text-five-right{
+    width: 50%;
+    height: 625px;
+    background-image: url(./137-88932.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+/* hero five end */
+
+
+
+
+.hero-six{
+    width: 100%;
+    height: 400px;
+}
+
+
+.text-six{
+    width: 100;
+    height: auto;
+    display: flex;
+    padding-inline: 40px;
+    flex-direction: row-reverse;
+    
+}
+.text-six-left{
+    width: 50%;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #006241;
+}
+
+.text-six-left h1{
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 36px;
+    color:white;
+    margin-bottom: 50px;
+    
+}
+
+
+.text-six-left p{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 33.25px;
+    color:white;
+    margin-top: 20px;
+}
+
+.text-six button{
+    width: 115px;
+    height: 33px;
+    border: 1px solid white;
+    border-radius: 15px ;
+    font-weight: 650;
+    font-size: 17px;
+    color: white;
+    background-color:#006241;
+    margin-top: 50px;
+}
+
+
+.text-six-right{
+    width: 50%;
+    height: 420px;
+    background-image: url(./137-88575.jpg);
+    background-position: center;
+    background-size: contain;
+    flex-direction: row-reverse;
+    
+}
+
+/* hero six end */
